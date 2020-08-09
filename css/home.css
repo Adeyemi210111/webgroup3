@@ -22,11 +22,29 @@ body{
     margin: auto;
 }
 
+nav{
+    background-color: rgb(73, 73, 163);
+    width: auto;
+    opacity: 90%;
+    position: fixed;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: grey;
+    font-size: 20px;
+    color: green;
+}
 #ouroffers h1{
     text-align:center;
     text-transform: uppercase;
     color: rgb(73, 73, 163);
-    
+    max-width: 1200px;
 }
 
 
