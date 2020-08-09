@@ -9,7 +9,6 @@ body{
 
 #container{
     background-color: lightgray;
-    border: solid 3px red;
     max-width: 1000px;
     margin:auto;
     margin-top:20px;
@@ -26,5 +25,14 @@ body{
 #ouroffers h1{
     text-align:center;
     text-transform: uppercase;
-    padding-top:10px;
 }
+
+.offers{
+    text-align:justify;
+    width: 300px;
+    height:300px;
+    display:inline-block;
+    padding: 10px;
+}
+
+
