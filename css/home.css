@@ -9,9 +9,10 @@ body{
 
 #container{
     background-color: lightgray;
-    max-width: 1000px;
+    max-width: 1200px;
     margin:auto;
     margin-top:20px;
+    height: 1300px;
 }
 
 #banner{
@@ -19,13 +20,15 @@ body{
     max-width: 1000px;
     height: 300px;
     margin: auto;
-   
 }
 
 #ouroffers h1{
     text-align:center;
     text-transform: uppercase;
+    color: rgb(73, 73, 163);
+    
 }
+
 
 
 .offers{
@@ -38,6 +41,9 @@ body{
 
 .offers h2{
     text-align:center;
+    background-color: rgb(58, 58, 138);
+    color: white;
+
 }
 
 #overview{
@@ -46,12 +52,40 @@ body{
     text-align:justify;
     width:900px;
     margin:auto;
-    border-radius: 30px;
-
+    border-radius: 20px;
+    color: rgb(71, 71, 184);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-weight: 800;
 }
 
 #overview div h2{
-    text-align:center
+    text-align:center;
 }
+#team h2{
+    text-align: center;
+    color: rgb(70, 70, 163);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+  #team h3{
+       color: rgb(70, 70, 161);
+   }
 
-
+#team img{
+     float: left;
+       width: 20%;
+       margin: auto;
+       padding: 5px 15px;
+   }
+ 
+#footer{
+    background-color: rgb(175, 175, 207);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: rgb(69, 69, 173);
+    clear: both;
+}
