@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   font-family: cursive;
+}
+
+#container{
+    background-color: lightgray;
+    border: solid 3px red;
+    max-width: 1000px;
+    margin:auto;
+    margin-top:20px;
+}
+
+#banner{
+    background-image: url(../images/home_banner.png);
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+   
+}
+
+#ouroffers h1{
+    text-align:center;
+    text-transform: uppercase;
+    padding-top:10px;
+}
