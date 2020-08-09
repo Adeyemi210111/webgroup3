@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   font-family: cursive;
+}
+
+#container{
+    background-color: lightgray;
+    max-width: 1000px;
+    margin:auto;
+    margin-top:20px;
+}
+
+#banner{
+    background-image: url(../images/home_banner.png);
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+   
+}
+
+#ouroffers h1{
+    text-align:center;
+    text-transform: uppercase;
+}
+
+
+.offers{
+    text-align: justify;
+    width: 300px;
+    height:200px;
+    display:inline-block;
+    padding: 10px;
+}
+
+.offers h2{
+    text-align:center;
+}
+
+#overview{
+    border: dotted 5px;
+    padding: 20px;
+    text-align:justify;
+    width:900px;
+    margin:auto;
+    border-radius: 30px;
+
+}
+
+#overview div h2{
+    text-align:center
+}
+
+
