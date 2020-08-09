@@ -2,6 +2,71 @@
     margin: 0;
     padding: 0;
 }
-#contact form{
-  background-color: royalblue;
+#contactform{
+  background-color: lightgray;
+  max-width: 600px;;
+  margin: auto;
+  border: dotted 5px rgb(175, 175, 207);
+  margin-top: 20px;
+  border-radius: 30px;
+  font-family: cursive;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#contact_form{
+  width: 50%;
+  margin: auto;
+}
+
+#contact_form h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+#container{
+  background-color: lightgray;
+  max-width: 1200px;
+  margin:auto;
+  height: 100%;
+}
+
+#contactimage{
+  background-image: url(../images/home_banner.png);
+  max-width: 1000px;
+  height: 300px;
+  margin: auto;
+}
+
+nav{
+  background-color: rgb(73, 73, 163);
+  width: auto;
+  opacity: 90%;
+  position: fixed;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover{
+  background-color: grey;
+  font-size: 20px;
+  color: green;
+}
+
+#submit{
+  font-size: 20px;
+  padding: 5px;
+  background-color: rgb(175, 175, 207);
+}
+#footer{
+  background-color: rgb(175, 175, 207);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(69, 69, 173);
+  clear: both;
 }
