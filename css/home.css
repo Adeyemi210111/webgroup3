@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   font-family: cursive;
+}
+
+#container{
+    background-color: lightgray;
+    max-width: 1200px;
+    margin:auto;
+    
+    height: 1300px;
+}
+
+#banner{
+    background-image: url(../images/home_banner.png);
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+nav{
+    background-color: rgb(73, 73, 163);
+    width: auto;
+    opacity: 90%;
+    position: fixed;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: grey;
+    font-size: 20px;
+    color: green;
+}
+#ouroffers h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: rgb(73, 73, 163);
+    max-width: 1200px;
+}
+
+
+
+.offers{
+    text-align: justify;
+    width: 300px;
+    height:200px;
+    display:inline-block;
+    padding: 10px;
+}
+
+.offers h2{
+    text-align:center;
+    background-color: rgb(58, 58, 138);
+    color: white;
+
+}
+
+#overview{
+    border: dotted 5px;
+    padding: 20px;
+    text-align:justify;
+    width:900px;
+    margin:auto;
+    border-radius: 20px;
+    color: rgb(71, 71, 184);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-weight: 800;
+}
+
+#overview div h2{
+    text-align:center;
+}
+#team h2{
+    text-align: center;
+    color: rgb(70, 70, 163);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+  #team h3{
+       color: rgb(70, 70, 161);
+   }
+
+#team img{
+     float: left;
+       width: 20%;
+       margin: auto;
+       padding: 5px 15px;
+       border-radius: 100%;
+   }
+ 
+#footer{
+    background-color: rgb(175, 175, 207);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: rgb(69, 69, 173);
+    clear: both;
+}
